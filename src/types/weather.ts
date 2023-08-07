@@ -9,7 +9,7 @@ export type WeatherData = {
       main: string;
       description: string;
       icon: string;
-    },
+    }
   ];
   base: string;
   main: {
@@ -69,7 +69,7 @@ export type ForecastData = {
           main: string;
           description: string;
           icon: string;
-        },
+        }
       ];
       rain: {
         "3h": number;
@@ -87,7 +87,7 @@ export type ForecastData = {
         pod: string;
       };
       dt_txt: string;
-    },
+    }
   ];
   city: {
     id: number;

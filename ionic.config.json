@@ -1,7 +1,0 @@
-{
-  "name": "Weathering",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react-vite"
-}
