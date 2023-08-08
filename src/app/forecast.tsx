@@ -53,9 +53,9 @@ export default function AboutScreen() {
               </View>
               <Image
                 source={{
-                  uri: `http://openweathermap.org/img/wn/${item.weather[0].icon}@4x.png`,
+                  uri: `https://openweathermap.org/img/wn/${item.weather[0].icon}@2x.png`,
                 }}
-                style={{ width: 60, height: 60 }}
+                style={styles.weatherIcon}
               />
             </View>
             <Divider />
@@ -78,6 +78,11 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
+  },
+  weatherIcon: {
+    width: 60,
+    height: 60,
+    aspectRatio: 1,
   },
   itemContainer: {
     flexDirection: "row",
